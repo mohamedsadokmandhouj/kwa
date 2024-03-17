@@ -1,0 +1,42 @@
+.container {
+    
+    display: flex;
+    justify-content:flex-end;
+    gap: 20px;
+    padding-right: 100px;
+    padding-top: 30px; 
+    font-family:Noto Sans Arabic; 
+    font-size:25px;
+    
+    
+   
+}
+
+.contaire2{
+    display: flex ;
+    justify-content: space-between
+}
+
+.grid {
+    margin-top: 200px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns:624px 624px;
+    grid-template-rows:603px ;
+}
+
+.image {
+   padding-top: 50px;
+    justify-self:center;
+    text-align:center;
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2;
+
+}
+
+a {
+    text-decoration:none; 
+    color: black;
+}
